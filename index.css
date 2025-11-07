@@ -1,0 +1,49 @@
+body {
+  font-family: "Zalando Sans Expanded", "Pretendard Variable";
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+
+#TBox {
+    margin: 60px;
+    text-align: center;
+}
+
+#Title {
+    color: #ff0010;
+    font-weight: 450;
+    font-size: 100px;
+}
+
+#SubTitle {
+    font-size: 50px;
+}
+
+img {
+    max-width: 400px;
+}
+
+button {
+    font-size: 35px;
+}
+
+#sn {
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #ff0010;
+    background-color: white;
+    color: #ff0010;
+}
+
+#su {
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #ff0010;
+    background-color: #ff0010;
+    color: #ffffff;
+}
