@@ -8,16 +8,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
     <link rel="stylesheet" href="index.css">
-    <title>Lisker</title>
+    <title>Login</title>
 </head>
 <body>
-    <div id="TBox">
-        <img src="Lisker.png">
     <div id="Title">Lisker</div>
-    <div id="SubTitle">지금 Lisker로 삶을 구체화하세요</div>
+    <div id="SubTitle">로그인하기</div>
+    <div id="CBOX">
+        <div id="LogInBox">
+            <label>
+                <div id="Lid">아이디</div>
+                <input placeholder="아이디를 입력하세요" id="Lip">
+            </label>
+            <label>
+                <div id="Lid">비밀번호</div>
+                <input placeholder="비밀번호를 입력하세요" id="Lip">
+            </label>
+        </div>
+        <button>로그인</button>
     </div>
-    <button id="sn" onclick="goto('login.html')">로그인하기</button>
-    <button id="su">회원가입하기</button>
 </body>
-    <script src="index.js"></script>
 </html>

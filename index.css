@@ -29,6 +29,7 @@ button {
 }
 
 #sn {
+    margin-right: 15px;
     border-radius: 10px;
     padding: 10px;
     padding-left: 20px;
@@ -39,6 +40,7 @@ button {
 }
 
 #su {
+    margin-left: 15px;
     border-radius: 10px;
     padding: 10px;
     padding-left: 20px;
@@ -46,4 +48,44 @@ button {
     border-color: #ff0010;
     background-color: #ff0010;
     color: #ffffff;
+}
+
+#CBOX {
+    margin: 0 auto;
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    border: solid;
+    border-color: #ff0010;
+    margin-top: 50px;
+}
+
+#Lid {
+    font-weight: 500;
+    font-size: 20px;
+    color: #ff0010;
+}
+
+#Lip {
+    box-shadow: none;
+    padding: 5px;
+    background-color: #ff7f87;
+    margin-bottom: 20px;
+    font-size: 20px;
+    outline: none;
+    border-color: #ff7f87;
+    color: #ff0010;
+}
+
+#Lip:focus {
+    border-color: #ff0010;
+}
+
+#Lip::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+#LogInBox {
+    margin: 50px;
+    scale: 1.5;
 }
