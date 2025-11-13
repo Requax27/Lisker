@@ -91,3 +91,11 @@ button {
     margin: 50px;
     scale: 1.5;
 }
+
+#plus {
+    width: 350px;
+}
+
+#checkbox {
+    border-color: black;
+}
