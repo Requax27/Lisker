@@ -38,6 +38,8 @@ function ADD(item) {
 
     const label = document.createElement('label');
 
+    const VVV = document.createElement('div')
+
     checkbox.type = 'checkbox';
 
     checkbox.checked = item.checked;
@@ -49,9 +51,13 @@ function ADD(item) {
         localStorage.setItem('SDTA', JSON.stringify(SDTA));
     }
 
+    VVV.id = 'SEX'
+
     label.appendChild(checkbox);
 
-    label.append(item.text);
+    label.appendChild(VVV);
+
+    VVV.append(item.text)
 
     ele.appendChild(label);
 
