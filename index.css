@@ -53,7 +53,7 @@ button {
 #CBOX {
     margin: 0 auto;
     width: 500px;
-    padding: 30px;
+    padding: 70px;
     border-radius: 10px;
     border: solid;
     border-color: #ff0010;
@@ -61,6 +61,7 @@ button {
 }
 
 #Lid {
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 20px;
     color: #ff0010;
@@ -69,11 +70,12 @@ button {
 #Lip {
     box-shadow: none;
     padding: 5px;
-    background-color: #ff7f87;
+    background-color: #ffffff;
     margin-bottom: 20px;
     font-size: 20px;
-    outline: none;
-    border-color: #ff7f87;
+    outline: solid;
+    border: none;
+    outline-color: #ff0010;
     color: #ff0010;
 }
 
